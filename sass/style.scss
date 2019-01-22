@@ -1,0 +1,101 @@
+$primary-color: #EDEDED;
+$icon-color: #C8102D;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+    // @include respond(tab-land) { // < 1200
+    //     font-size: 56.25%;  // 1 rem = 9px, 9/16 = 56.25%;
+    // }
+
+    // @include respond(tab-port) { // < 900
+    //     font-size: 50%; // 1 rem = 8px, 8/16 = 50%
+    // }
+
+}
+
+.progress-bar {
+    width: 100%;
+    margin: 10% auto;
+    height: 10vh;
+    padding: 0;
+
+    i {
+        color: $icon-color;
+        font-size: 2em;
+        width: 100%;
+        position: absolute;
+        top: 5.7em;
+        left: 29.7%;
+    }
+
+    .bar {
+        background: #EDEDED;
+        width: 40%;
+        height: .3vh;
+        margin: 0 auto;
+        box-shadow: 0 4px 2px -2px black;
+    }
+
+    .circle {
+        height: 1em;
+        background: #ededed;
+        position: absolute;
+        border-radius: 100%;
+        z-index: 2;
+        width: 1em;
+        top: 14em;
+
+        // .label {
+        //     margin-top: 3%;
+        //     font-size: 1em;
+        // }
+    }
+
+    .label {
+        position: absolute;
+        top: 13em;
+        left: 29.7%;
+        font-size: 1.2em;
+        font-family: 'Poiret One';
+    }
+        .ship {
+            left: 42.3%;
+        }
+
+        .pay {
+            left: 55.7%;
+        }
+
+        .sum {
+            left: 68.8%;
+        }
+
+    .cart {
+        left: 30%;
+    }
+
+    .shipping {
+        left: 43.33333333%;
+    }
+
+    .payment {
+        left: 56.66666666%;
+    }
+
+    .summary {
+        left: 70%;
+    }
+
+    .filled {
+
+    }
+}
