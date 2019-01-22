@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.progress-bar {
+  width: 100%;
+  margin: 10% auto;
+  height: 10vh;
+  padding: 0;
+}
+.progress-bar i {
+  color: #C8102D;
+  font-size: 2em;
+  width: 100%;
+  position: absolute;
+  top: 5.7em;
+  left: 29.7%;
+}
+.progress-bar .bar {
+  background: #EDEDED;
+  width: 40%;
+  height: 0.3vh;
+  margin: 0 auto;
+  box-shadow: 0 4px 2px -2px black;
+}
+.progress-bar .circle {
+  height: 1em;
+  background: #ededed;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 2;
+  width: 1em;
+  top: 14em;
+}
+.progress-bar .label {
+  position: absolute;
+  top: 13em;
+  left: 29.7%;
+  font-size: 1.2em;
+  font-family: "Poiret One";
+}
+.progress-bar .ship {
+  left: 42.3%;
+}
+.progress-bar .pay {
+  left: 55.7%;
+}
+.progress-bar .sum {
+  left: 68.8%;
+}
+.progress-bar .cart {
+  left: 30%;
+}
+.progress-bar .shipping {
+  left: 43.33333333%;
+}
+.progress-bar .payment {
+  left: 56.66666666%;
+}
+.progress-bar .summary {
+  left: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */
