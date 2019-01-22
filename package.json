@@ -1,0 +1,23 @@
+{
+  "name": "general-animals",
+  "version": "1.0.0",
+  "description": "Implement progress bar into checkout process",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/style.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisaolson/general-animals.git"
+  },
+  "author": "Lisa Olson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisaolson/general-animals/issues"
+  },
+  "homepage": "https://github.com/lisaolson/general-animals#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
