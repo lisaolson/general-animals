@@ -12,14 +12,25 @@ html {
 
 .progress-bar {
   width: 100%;
-  margin: 10% auto;
+  margin: 7% auto;
   height: 10vh;
   padding: 0;
 }
-.progress-bar i {
+.progress-bar .btn {
+  position: absolute;
+  font-size: 1.5em;
+  color: #da0024;
+  cursor: pointer;
+}
+.progress-bar .btn-left {
+  left: 25%;
+}
+.progress-bar .btn-right {
+  left: 75%;
+}
+.progress-bar #icon {
   color: #C8102D;
   font-size: 2em;
-  width: 100%;
   position: absolute;
   top: 5.7em;
   left: 29.7%;
@@ -30,6 +41,7 @@ html {
   height: 0.3vh;
   margin: 0 auto;
   box-shadow: 0 4px 2px -2px black;
+  margin-top: 14.4em;
 }
 .progress-bar .circle {
   height: 1em;
@@ -39,6 +51,7 @@ html {
   z-index: 2;
   width: 1em;
   top: 14em;
+  cursor: pointer;
 }
 .progress-bar .label {
   position: absolute;
@@ -46,6 +59,7 @@ html {
   left: 29.7%;
   font-size: 1.2em;
   font-family: "Poiret One";
+  letter-spacing: 1px;
 }
 .progress-bar .ship {
   left: 42.3%;
@@ -58,6 +72,7 @@ html {
 }
 .progress-bar .cart {
   left: 30%;
+  background: #C8102D;
 }
 .progress-bar .shipping {
   left: 43.33333333%;
