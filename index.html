@@ -12,14 +12,18 @@
 <body>
 
     <section class="progress-bar">
+        <i class="fas fa-chevron-left btn btn-left"></i>
         <div class="bar">
-                <i class="fas fa-paw"></i>
-            <div class="cart circle"></div><p class="label">Cart</p>
-            <div class="shipping circle"></div><p class="label ship">Shipping</p>
-            <div class="payment circle"></div><p class="label pay">Payment</p>
-            <div class="summary circle"></div><p class="label sum">Summary</p>
+            <div class="logo"><i id="icon" class="fas fa-paw"></i></div>
+            <div class="cart circle" onclick="cartClick()"></div><p class="label">Cart</p>
+            <div class="shipping circle" onclick="shippingClick()"></div><p class="label ship">Shipping</p>
+            <div class="payment circle" onclick="paymentClick()"></div><p class="label pay">Payment</p>
+            <div class="summary circle" onclick="summaryClick()"></div><p class="label sum">Summary</p>
         </div>
+        <i class="fas fa-chevron-right btn btn-right"></i>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
