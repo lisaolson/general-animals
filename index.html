@@ -12,15 +12,15 @@
 <body>
 
     <section class="progress-bar">
-        <i class="fas fa-chevron-left btn btn-left"></i>
+        <i class="fas fa-chevron-left btn btn-left" onclick="backward()"></i>
         <div class="bar">
             <div class="logo"><i id="icon" class="fas fa-paw"></i></div>
-            <div class="cart circle" onclick="cartClick()"></div><p class="label">Cart</p>
-            <div class="shipping circle" onclick="shippingClick()"></div><p class="label ship">Shipping</p>
-            <div class="payment circle" onclick="paymentClick()"></div><p class="label pay">Payment</p>
-            <div class="summary circle" onclick="summaryClick()"></div><p class="label sum">Summary</p>
+            <div class="cart circle one" onclick="cartClick()"></div><p id="label-cart" class="label">Cart</p>
+            <div class="shipping circle two" id="shipping" onclick="shippingClick()"></div><p class="label ship">Shipping</p>
+            <div class="payment circle three" id="payment" onclick="paymentClick()"></div><p class="label pay">Payment</p>
+            <div class="summary circle four" id="summary" onclick="summaryClick()"></div><p class="label sum">Summary</p>
         </div>
-        <i class="fas fa-chevron-right btn btn-right"></i>
+        <i class="fas fa-chevron-right btn btn-right" onclick="forward()"></i>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
