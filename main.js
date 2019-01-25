@@ -42,3 +42,28 @@ function summaryClick() {
     TweenMax.to(".shipping", 1.5, { backgroundColor: "#C8102D" })
     TweenMax.to(".payment", 1.5, { backgroundColor: "#C8102D" })
 }
+
+let i = 1;
+function forward() {
+    let functions = [cartClick, shippingClick, paymentClick, summaryClick];
+
+    if (i <= 0) {
+        i = 1;
+    }
+    if(i < functions.length) {
+        functions[i]();
+        i++;
+    }
+}
+
+function backward() {
+    let functions = [cartClick, shippingClick, paymentClick, summaryClick];
+
+    if (i >= 4) {
+        i = 3;
+    }
+    if (i >= 0) {
+        functions[i]();
+        i--;
+    }
+};
