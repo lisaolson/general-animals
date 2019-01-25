@@ -9,6 +9,7 @@ Implement progress bar into checkout process
 
 ### Installation
 ```git clone git@github.com:lisaolson/general-animals.git```
+
 ```npm install```
 
 ### Process
@@ -53,8 +54,8 @@ Implement progress bar into checkout process
 
 ##### Images
 Below contain my initial drawings of possible progress bar designs, my keynote graphic of the bar and a gif of the final working product
-![Progress Bar Illustrations on whiteboard](public/images/ga_whiteboard.jpg)
-![Progress Bar Illustration](public/images/ga_progressBar.png)
+![Progress Bar Illustrations on whiteboard](ga_whiteboard.jpg)
+![Progress Bar Illustration](ga_progressBar.png)
 
 ### Author
 Lisa Olson | @eunoia_lo
