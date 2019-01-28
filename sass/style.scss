@@ -11,15 +11,6 @@ $icon-color: #C8102D;
 
 html {
     font-size: 62.5%;
-
-    // @include respond(tab-land) { 
-    //     font-size: 56.25%; 
-    // }
-
-    // @include respond(tab-port) {
-    //     font-size: 50%; 
-    // }
-
 }
 
 .progress-bar {
@@ -27,19 +18,6 @@ html {
     margin: 7% auto;
     height: 10vh;
     padding: 0;
-
-    .btn {
-        position: absolute;
-        font-size: 1.5em;
-        color: #da0024;
-        cursor: pointer;
-    }
-    .btn-left {
-        left: 25%;
-    }
-    .btn-right {
-        left: 75%;
-    }
 
     #icon {
         color: $icon-color;
@@ -67,11 +45,22 @@ html {
         width: 1em;
         top: 14em;
         cursor: pointer;
-
-        // .label {
-        //     margin-top: 3%;
-        //     font-size: 1em;
-        // }
+            &.cart {
+                left: 30%;
+                background: #C8102D;
+            }
+        
+            &.shipping {
+                left: 43.33333333%;
+            }
+        
+            &.payment {
+                left: 56.66666666%;
+            }
+        
+            &.summary {
+                left: 70%;
+        }
     }
 
     .label {
@@ -82,37 +71,47 @@ html {
         font-family: 'Poiret One';
         letter-spacing: 1px;
         cursor: pointer;
-    }
-        .ship {
-            left: 42.3%;
+            &.ship {
+                left: 42.3%;
+            }
+
+            &.pay {
+                left: 55.7%;
+            }
+
+            &.sum {
+                left: 68.8%;
+            }
+        }
+}
+
+// Break-points
+$phone: "only screen and (max-width : 699px)";
+
+@media #{$phone} {
+    .progress-bar {
+
+        #icon {
+            font-size: 1.7em;
+            top: 7em;
+            left: 29.5%;
         }
 
-        .pay {
-            left: 55.7%;
-        }
-
-        .sum {
-            left: 68.8%;
-        }
-
-    .cart {
-        left: 30%;
-        background: #C8102D;
-    }
-
-    .shipping {
-        left: 43.33333333%;
-    }
-
-    .payment {
-        left: 56.66666666%;
-    }
-
-    .summary {
-        left: 70%;
-    }
-
-    .filled {
-
+        .label {
+            top: 17.5em;
+            font-size: .9em;
+            font-family: 'Poiret One';
+                &.ship {
+                    left: 40%;
+                }
+    
+                &.pay {
+                    left: 54%;
+                }
+    
+                &.sum {
+                    left: 67%;
+                }
+            }
     }
 }

@@ -16,18 +16,6 @@ html {
   height: 10vh;
   padding: 0;
 }
-.progress-bar .btn {
-  position: absolute;
-  font-size: 1.5em;
-  color: #da0024;
-  cursor: pointer;
-}
-.progress-bar .btn-left {
-  left: 25%;
-}
-.progress-bar .btn-right {
-  left: 75%;
-}
 .progress-bar #icon {
   color: #C8102D;
   font-size: 2em;
@@ -53,6 +41,19 @@ html {
   top: 14em;
   cursor: pointer;
 }
+.progress-bar .circle.cart {
+  left: 30%;
+  background: #C8102D;
+}
+.progress-bar .circle.shipping {
+  left: 43.33333333%;
+}
+.progress-bar .circle.payment {
+  left: 56.66666666%;
+}
+.progress-bar .circle.summary {
+  left: 70%;
+}
 .progress-bar .label {
   position: absolute;
   top: 13em;
@@ -62,27 +63,36 @@ html {
   letter-spacing: 1px;
   cursor: pointer;
 }
-.progress-bar .ship {
+.progress-bar .label.ship {
   left: 42.3%;
 }
-.progress-bar .pay {
+.progress-bar .label.pay {
   left: 55.7%;
 }
-.progress-bar .sum {
+.progress-bar .label.sum {
   left: 68.8%;
 }
-.progress-bar .cart {
-  left: 30%;
-  background: #C8102D;
-}
-.progress-bar .shipping {
-  left: 43.33333333%;
-}
-.progress-bar .payment {
-  left: 56.66666666%;
-}
-.progress-bar .summary {
-  left: 70%;
+
+@media only screen and (max-width : 699px) {
+  .progress-bar #icon {
+    font-size: 1.7em;
+    top: 7em;
+    left: 29.5%;
+  }
+  .progress-bar .label {
+    top: 17.5em;
+    font-size: 0.9em;
+    font-family: "Poiret One";
+  }
+  .progress-bar .label.ship {
+    left: 40%;
+  }
+  .progress-bar .label.pay {
+    left: 54%;
+  }
+  .progress-bar .label.sum {
+    left: 67%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
