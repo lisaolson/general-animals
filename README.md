@@ -73,9 +73,9 @@ Implement progress bar into checkout process
 
 ##### Images
 Below contain my initial drawings of possible progress bar designs, my keynote graphic of the bar, and a final screenshot of the working product
-![Progress Bar Illustrations on whiteboard](ga_whiteboard.jpg)
-![Progress Bar Illustration](ga_progressBar.png)
-![Progress Bar](ga_finalProgressBar.png)
+![Progress Bar Illustrations on whiteboard](images/ga_whiteboard.jpg)
+![Progress Bar Illustration](images/ga_progressBar.png)
+![Progress Bar](images/ga_finalProgressBar.png)
 
 ### Author
 Lisa Olson | @eunoia_lo
