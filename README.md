@@ -51,7 +51,7 @@ Implement progress bar into checkout process
 - The design makes it clear where the user is in the order process while maintaining consistency with an animal-focused company 
 - After research on common progress bars in most current websites, it seems the trend is to place the progress bar in the upper quadrant of the website where it's unobtrusive, yet visible. This is generally paired with a summary box on the right hand side showing exactly what is being purchased and the total costs. 
 - Animations and interactivity are what make navigating websites so enjoyable so I included both of those.
-- I chose against icons in place of words because I'm already using the pawprint icon to track where the user is in the process.  It seemed icons above and below the bar would be overwhelming visually and counter-productive. 
+- I chose against icons in place of words because the pawprint icon is tracking where the user is in the process so it seemed icons above and below the bar would be overwhelming visually and counter-productive. 
 
 ##### Layout
 - It seems most effective progress bars stay in the same place throughout the entire checkout process.
