@@ -1,8 +1,8 @@
-// Add rotation to pawprint and color the currently selected circle to red
+// Add rotation to pawprint, fill in circle color, add gradient to bar
 function cartClick() {
     TweenMax.to("#icon", 1.5, { left: "29.7%", rotation: 0})
     TweenMax.to(".bar", 5, { background: "linear-gradient(to right,  #ededed 0%,#ededed 43%,#ededed 50%,#ededed 100%)" })
-    TweenMax.to(".cart", 1.5, { backgroundColor: "#C8102D", transform: "scale(1.2)"})
+    TweenMax.to(".cart", 1.5, { backgroundColor: "#C8102D", transform: "scale(1.1)"})
     TweenMax.to(".payment", 1.5, { backgroundColor: "#EDEDED" })
     TweenMax.to(".shipping", 1.5, { backgroundColor: "#EDEDED" })
     TweenMax.to(".summary", 1.5, { backgroundColor: "#EDEDED" })
